@@ -31,7 +31,7 @@ print_string_exit:
 jmp $
 
 string:
-    db "this", 0
+    db "testing!", 0
 
 times 510-($-$$) db 0
 db 0x55, 0xaa
